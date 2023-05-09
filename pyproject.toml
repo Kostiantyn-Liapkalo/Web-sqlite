@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "web-sqlite"
+version = "0.1.1"
+description = ""
+authors = ["Kostiantyn-Liapkalo <lynx87@ukr.net>"]
+readme = "README.md"
+packages = [{include = "web_sqlite"}]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+faker = "^18.7.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
